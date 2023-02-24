@@ -1,13 +1,17 @@
 import './App.css';
 import Welcome from './components/welcome';
 import ConditionalRender from './components/conditionalRendering';
+import RenderingLists from './components/renderingLists';
 function App() {
   return (
     <div>
       <Welcome/>
-      <div className='box'>
-       <ConditionalRender/>
-      </div>
+       <div>
+        <ConditionalRender/>
+       </div>
+       <div>
+        <RenderingLists/>
+       </div>
       
     </div>
     

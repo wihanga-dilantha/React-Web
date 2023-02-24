@@ -1,6 +1,6 @@
 export default function Admin() {
     return(
-        <div>
+        <div className="box">
             <h2>Admin</h2>
             <p>Welcome to Admin Panel</p>
         </div>
