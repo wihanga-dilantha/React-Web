@@ -3,9 +3,12 @@ import Welcome from './components/welcome';
 import ConditionalRender from './components/conditionalRendering';
 function App() {
   return (
-    <div>
+    <div className="box">
       <Welcome/>
-      <ConditionalRender/>
+      <div className='box'>
+       <ConditionalRender/>
+      </div>
+      
     </div>
     
   );
