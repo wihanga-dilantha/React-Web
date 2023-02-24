@@ -1,19 +1,12 @@
 import Login from "./login"
 import Admin from "./admin"
 
-let content;
-let isLogin = false;
-
-if(isLogin){
-    content=<Admin/>
-}else{
-    content=<Login/>
-}
+let isLogin = true;
 
 export default function ConditionalRender() {
     return(
         <div>
-            {content}
+           {isLogin ? <Admin/>: <Login/>}
         </div>
     )
 }

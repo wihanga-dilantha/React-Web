@@ -7,7 +7,7 @@ const data ={
 
 export default function Welcome() {
     return(
-        <div>
+        <div className="box">
             <div className="image">
                 <img src = {data.img} alt="placeholder"/>
             </div>
